@@ -6,7 +6,7 @@ document.getElementById('submit').addEventListener('click', async () => {
 
   resultDiv.textContent = 'Thinking...';
 
-  const res = await fetch('http://localhost:3000/ask', {
+  const res = await fetch('https://it-ticket-assistant.onrender.com/ask', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ userInput: input})
