@@ -1,6 +1,6 @@
 # IT Ticket Assistant
 
-An AI-powered IT support tool that diagnoses tech issues and returns structured helpdesk tickets with root cause, resolution steps, and priority level.
+An AI-powered IT support tool using the HuggingFace API that diagnoses tech issues and returns structured helpdesk tickets with root cause, resolution steps, and priority level.
 
 ## Live Demo
 [it-ticket-assistant.vercel.app](https://it-ticket-assistant.vercel.app)
